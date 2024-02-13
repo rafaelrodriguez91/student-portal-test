@@ -1,9 +1,12 @@
-// TODO: update letter spacing unit and value
+@mixin caption {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+}
 
 // Caption x-large
 
 @mixin caption-x-large {
-  font-family: "Open Sans", sans-serif;
+  @include caption;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0;
@@ -32,7 +35,7 @@
 // Caption large
 
 @mixin caption-large {
-  font-family: "Open Sans", sans-serif;
+  @include caption;
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0;
@@ -61,10 +64,10 @@
 // Caption medium
 
 @mixin caption-medium {
-  font-family: "Open Sans", sans-serif;
+  @include caption;
   font-size: 12px;
   line-height: 18px;
-  letter-spacing: 2%;
+  letter-spacing: 0.24px;
 }
 
 @mixin caption-medium-extra-bold {
@@ -90,10 +93,10 @@
 // Caption small
 
 @mixin caption-small {
-  font-family: "Open Sans", sans-serif;
+  @include caption;
   font-size: 10px;
   line-height: 14px;
-  letter-spacing: 2%;
+  letter-spacing: 0.2px;
 }
 
 @mixin caption-small-extra-bold {

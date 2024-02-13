@@ -1,9 +1,12 @@
-// TODO: update letter spacing unit and value
+@mixin label {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+}
 
 // Label large
 
 @mixin label-large {
-  font-family: "Open Sans", sans-serif;
+  @include label;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0;
@@ -32,7 +35,7 @@
 // Label medium
 
 @mixin label-medium {
-  font-family: "Open Sans", sans-serif;
+  @include label;
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0;
@@ -61,10 +64,10 @@
 // Label small
 
 @mixin label-small {
-  font-family: "Open Sans", sans-serif;
+  @include label;
   font-size: 12px;
   line-height: 18px;
-  letter-spacing: 2%;
+  letter-spacing: 0.24px;
 }
 
 @mixin label-small-extra-bold {
@@ -90,10 +93,10 @@
 // Label x-small
 
 @mixin label-x-small {
-  font-family: "Open Sans", sans-serif;
+  @include label;
   font-size: 10px;
   line-height: 16px;
-  letter-spacing: 4%;
+  letter-spacing: 0.4px;
 }
 
 @mixin label-x-small-extra-bold {

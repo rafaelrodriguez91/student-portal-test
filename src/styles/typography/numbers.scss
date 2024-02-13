@@ -1,8 +1,9 @@
-// TODO: adjust letter spacing to valid units since percentage is not supported
+// TODO: adjust letter spacing since fimga documented value is 4% but each variant has a different value
 
 @mixin number {
   font-family: "Open Sans", sans-serif;
-  letter-spacing: 4%;
+  font-style: normal;
+  letter-spacing: 1.28px;
 }
 
 // Number 800

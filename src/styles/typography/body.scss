@@ -3,6 +3,7 @@
 @mixin body {
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0;
+  font-style: normal;
 }
 
 // Body
@@ -32,7 +33,7 @@
 
 @mixin body-x-large-regular-underlined {
   @include body-x-large-regular;
-  text-decoration: underline;
+  text-decoration-line: underline;
 }
 
 // Body large
@@ -60,7 +61,7 @@
 
 @mixin body-large-regular-underlined {
   @include body-large-regular;
-  text-decoration: underline;
+  text-decoration-line: underline;
 }
 
 // Body base
@@ -88,7 +89,7 @@
 
 @mixin body-base-regular-underlined {
   @include body-base-regular;
-  text-decoration: underline;
+  text-decoration-line: underline;
 }
 
 // Body small
@@ -116,7 +117,7 @@
 
 @mixin body-small-regular-underlined {
   @include body-small-regular;
-  text-decoration: underline;
+  text-decoration-line: underline;
 }
 
 // Body x-small
@@ -144,7 +145,7 @@
 
 @mixin body-x-small-regular-underlined {
   @include body-x-small-regular;
-  text-decoration: underline;
+  text-decoration-line: underline;
 }
 
 // Body xx-small
@@ -172,7 +173,7 @@
 
 @mixin body-xx-small-regular-underlined {
   @include body-xx-small-regular;
-  text-decoration: underline;
+  text-decoration-line: underline;
 }
 
 // Body highlight
@@ -202,7 +203,7 @@
 
 @mixin body-highlight-large-regular-underlined {
   @include body-highlight-large-regular;
-  text-decoration: underline;
+  text-decoration-line: underline;
 }
 
 // Body highlight medium
@@ -230,5 +231,5 @@
 
 @mixin body-highlight-medium-regular-underlined {
   @include body-highlight-medium-regular;
-  text-decoration: underline;
+  text-decoration-line: underline;
 }

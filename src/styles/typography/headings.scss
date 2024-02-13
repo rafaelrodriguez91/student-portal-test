@@ -1,6 +1,7 @@
 @mixin heading {
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0;
+  font-style: normal;
 }
 
 // Heading 600
@@ -497,6 +498,7 @@
   @include heading;
   font-size: 12px;
   line-height: 18px;
+  letter-spacing: 0.12px;
 }
 
 @mixin heading-100-small-extra-bold {
