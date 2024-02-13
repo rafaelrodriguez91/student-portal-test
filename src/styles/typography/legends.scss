@@ -1,0 +1,73 @@
+@mixin legend {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0;
+}
+
+// Legend large
+
+@mixin legend-large {
+  @include legend;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@mixin legend-large-bold {
+  @include legend-large;
+  font-weight: 700;
+}
+
+@mixin legend-large-semi-bold {
+  @include legend-large;
+  font-weight: 600;
+}
+
+@mixin legend-large-regular {
+  @include legend-large;
+  font-weight: 400;
+}
+
+// Legend medium
+
+@mixin legend-medium {
+  @include legend;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@mixin legend-medium-bold {
+  @include legend-medium;
+  font-weight: 700;
+}
+
+@mixin legend-medium-semi-bold {
+  @include legend-medium;
+  font-weight: 600;
+}
+
+@mixin legend-medium-regular {
+  @include legend-medium;
+  font-weight: 400;
+}
+
+// Legend small
+
+@mixin legend-small {
+  @include legend;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+@mixin legend-small-bold {
+  @include legend-small;
+  font-weight: 700;
+}
+
+@mixin legend-small-semi-bold {
+  @include legend-small;
+  font-weight: 600;
+}
+
+@mixin legend-small-regular {
+  @include legend-small;
+  font-weight: 400;
+}

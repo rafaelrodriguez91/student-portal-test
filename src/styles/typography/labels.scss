@@ -1,0 +1,117 @@
+// TODO: update letter spacing unit and value
+
+// Label large
+
+@mixin label-large {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+@mixin label-large-extra-bold {
+  @include label-large;
+  font-weight: 800;
+}
+
+@mixin label-large-bold {
+  @include label-large;
+  font-weight: 700;
+}
+
+@mixin label-large-semi-bold {
+  @include label-large;
+  font-weight: 600;
+}
+
+@mixin label-large-regular {
+  @include label-large;
+  font-weight: 400;
+}
+
+// Label medium
+
+@mixin label-medium {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
+@mixin label-medium-extra-bold {
+  @include label-medium;
+  font-weight: 800;
+}
+
+@mixin label-medium-bold {
+  @include label-medium;
+  font-weight: 700;
+}
+
+@mixin label-medium-semi-bold {
+  @include label-medium;
+  font-weight: 600;
+}
+
+@mixin label-medium-regular {
+  @include label-medium;
+  font-weight: 400;
+}
+
+// Label small
+
+@mixin label-small {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 2%;
+}
+
+@mixin label-small-extra-bold {
+  @include label-small;
+  font-weight: 800;
+}
+
+@mixin label-small-bold {
+  @include label-small;
+  font-weight: 700;
+}
+
+@mixin label-small-semi-bold {
+  @include label-small;
+  font-weight: 600;
+}
+
+@mixin label-small-regular {
+  @include label-small;
+  font-weight: 400;
+}
+
+// Label x-small
+
+@mixin label-x-small {
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: 4%;
+}
+
+@mixin label-x-small-extra-bold {
+  @include label-x-small;
+  font-weight: 800;
+}
+
+@mixin label-x-small-bold {
+  @include label-x-small;
+  font-weight: 700;
+}
+
+@mixin label-x-small-semi-bold {
+  @include label-x-small;
+  font-weight: 600;
+}
+
+@mixin label-x-small-regular {
+  @include label-x-small;
+  font-weight: 400;
+}

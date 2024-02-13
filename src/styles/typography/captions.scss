@@ -1,0 +1,117 @@
+// TODO: update letter spacing unit and value
+
+// Caption x-large
+
+@mixin caption-x-large {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+@mixin caption-x-large-extra-bold {
+  @include caption-x-large;
+  font-weight: 800;
+}
+
+@mixin caption-x-large-bold {
+  @include caption-x-large;
+  font-weight: 700;
+}
+
+@mixin caption-x-large-semi-bold {
+  @include caption-x-large;
+  font-weight: 600;
+}
+
+@mixin caption-x-large-regular {
+  @include caption-x-large;
+  font-weight: 400;
+}
+
+// Caption large
+
+@mixin caption-large {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
+@mixin caption-large-extra-bold {
+  @include caption-large;
+  font-weight: 800;
+}
+
+@mixin caption-large-bold {
+  @include caption-large;
+  font-weight: 700;
+}
+
+@mixin caption-large-semi-bold {
+  @include caption-large;
+  font-weight: 600;
+}
+
+@mixin caption-large-regular {
+  @include caption-large;
+  font-weight: 400;
+}
+
+// Caption medium
+
+@mixin caption-medium {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 2%;
+}
+
+@mixin caption-medium-extra-bold {
+  @include caption-medium;
+  font-weight: 800;
+}
+
+@mixin caption-medium-bold {
+  @include caption-medium;
+  font-weight: 700;
+}
+
+@mixin caption-medium-semi-bold {
+  @include caption-medium;
+  font-weight: 600;
+}
+
+@mixin caption-medium-regular {
+  @include caption-medium;
+  font-weight: 400;
+}
+
+// Caption small
+
+@mixin caption-small {
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 2%;
+}
+
+@mixin caption-small-extra-bold {
+  @include caption-small;
+  font-weight: 800;
+}
+
+@mixin caption-small-bold {
+  @include caption-small;
+  font-weight: 700;
+}
+
+@mixin caption-small-semi-bold {
+  @include caption-small;
+  font-weight: 600;
+}
+
+@mixin caption-small-regular {
+  @include caption-small;
+  font-weight: 400;
+}

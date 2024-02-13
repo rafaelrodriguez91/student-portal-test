@@ -1,0 +1,107 @@
+/* NOTE: Google Fonts doesn't have a 600 value for Lato, so we added the ttf file from Edclub Experiences repository */
+
+@font-face {
+  font-display: swap;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  src: url("fonts/Lato/lato-100.woff2") format("woff2"),
+    url("fonts/Lato/lato-100.ttf") format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  src: url("fonts/Lato/lato-100italic.woff2") format("woff2"),
+    url("fonts/Lato/lato-100italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  src: url("fonts/Lato/lato-300.woff2") format("woff2"),
+    url("fonts/Lato/lato-300.ttf") format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  src: url("fonts/Lato/lato-300italic.woff2") format("woff2"),
+    url("fonts/Lato/lato-300italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/Lato/lato-regular.woff2") format("woff2"),
+    url("fonts/Lato/lato-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  src: url("fonts/Lato/lato-italic.woff2") format("woff2"),
+    url("fonts/Lato/lato-italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  src: url("fonts/Lato/lato-600.ttf") format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  src: url("fonts/Lato/lato-600italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/Lato/lato-700.woff2") format("woff2"),
+    url("fonts/Lato/lato-700.ttf") format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  src: url("fonts/Lato/lato-700italic.woff2") format("woff2"),
+    url("fonts/Lato/lato-700italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  src: url("fonts/Lato/lato-900.woff2") format("woff2"),
+    url("fonts/Lato/lato-900.ttf") format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  src: url("fonts/Lato/lato-900italic.woff2") format("woff2"),
+    url("fonts/Lato/lato-900italic.ttf") format("truetype");
+}

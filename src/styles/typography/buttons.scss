@@ -1,0 +1,53 @@
+// TODO: added semi bold Lato file but we need to test if it displays correctly
+// TODO: adjust letter spacing to valid units since percentage is not supported
+
+@mixin button-default {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1%;
+  font-family: "Lato", sans-serif;
+}
+
+@mixin button-default-semi-bold {
+  @include button-default;
+  font-weight: 600;
+}
+
+@mixin button-default-regular {
+  @include button-default;
+  font-weight: 400;
+}
+
+@mixin button-small {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1.5%;
+  font-family: "Lato", sans-serif;
+}
+
+@mixin button-small-semi-bold {
+  @include button-small;
+  font-weight: 600;
+}
+
+@mixin button-small-regular {
+  @include button-small;
+  font-weight: 400;
+}
+
+@mixin button-x-small {
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 2%;
+  font-family: "Lato", sans-serif;
+}
+
+@mixin button-x-small-semi-bold {
+  @include button-x-small;
+  font-weight: 600;
+}
+
+@mixin button-x-small-regular {
+  @include button-x-small;
+  font-weight: 400;
+}

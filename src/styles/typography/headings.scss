@@ -1,0 +1,520 @@
+@mixin heading {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0;
+}
+
+// Heading 600
+
+// 600 large
+
+@mixin heading-600-large {
+  @include heading;
+  font-size: 40px;
+  line-height: 56px;
+}
+
+@mixin heading-600-large-extra-bold {
+  @include heading-600-large;
+  font-weight: 800;
+}
+
+@mixin heading-600-large-bold {
+  @include heading-600-large;
+  font-weight: 700;
+}
+
+@mixin heading-600-large-semi-bold {
+  @include heading-600-large;
+  font-weight: 600;
+}
+
+@mixin heading-600-large-regular {
+  @include heading-600-large;
+  font-weight: 400;
+}
+
+// 600 medium
+
+@mixin heading-600-medium {
+  @include heading;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+@mixin heading-600-medium-extra-bold {
+  @include heading-600-medium;
+  font-weight: 800;
+}
+
+@mixin heading-600-medium-bold {
+  @include heading-600-medium;
+  font-weight: 700;
+}
+
+@mixin heading-600-medium-semi-bold {
+  @include heading-600-medium;
+  font-weight: 600;
+}
+
+@mixin heading-600-medium-regular {
+  @include heading-600-medium;
+  font-weight: 400;
+}
+
+// 600 small
+
+@mixin heading-600-small {
+  @include heading;
+  font-size: 28px;
+  line-height: 42px;
+}
+
+@mixin heading-600-small-extra-bold {
+  @include heading-600-small;
+  font-weight: 800;
+}
+
+@mixin heading-600-small-bold {
+  @include heading-600-small;
+  font-weight: 700;
+}
+
+@mixin heading-600-small-semi-bold {
+  @include heading-600-small;
+  font-weight: 600;
+}
+
+@mixin heading-600-small-regular {
+  @include heading-600-small;
+  font-weight: 400;
+}
+
+// Heading 500
+
+// 500 large
+
+@mixin heading-500-large {
+  @include heading;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+@mixin heading-500-large-extra-bold {
+  @include heading-500-large;
+  font-weight: 800;
+}
+
+@mixin heading-500-large-bold {
+  @include heading-500-large;
+  font-weight: 700;
+}
+
+@mixin heading-500-large-semi-bold {
+  @include heading-500-large;
+  font-weight: 500;
+}
+
+@mixin heading-500-large-regular {
+  @include heading-500-large;
+  font-weight: 400;
+}
+
+// 500 medium
+
+@mixin heading-500-medium {
+  @include heading;
+  font-size: 28px;
+  line-height: 42px;
+}
+
+@mixin heading-500-medium-extra-bold {
+  @include heading-500-medium;
+  font-weight: 800;
+}
+
+@mixin heading-500-medium-bold {
+  @include heading-500-medium;
+  font-weight: 700;
+}
+
+@mixin heading-500-medium-semi-bold {
+  @include heading-500-medium;
+  font-weight: 500;
+}
+
+@mixin heading-500-medium-regular {
+  @include heading-500-medium;
+  font-weight: 400;
+}
+
+// 500 small
+
+@mixin heading-500-small {
+  @include heading;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+@mixin heading-500-small-extra-bold {
+  @include heading-500-small;
+  font-weight: 800;
+}
+
+@mixin heading-500-small-bold {
+  @include heading-500-small;
+  font-weight: 700;
+}
+
+@mixin heading-500-small-semi-bold {
+  @include heading-500-small;
+  font-weight: 500;
+}
+
+@mixin heading-500-small-regular {
+  @include heading-500-small;
+  font-weight: 400;
+}
+
+// Heading 400
+
+// 400 large
+
+@mixin heading-400-large {
+  @include heading;
+  font-size: 28px;
+  line-height: 42px;
+}
+
+@mixin heading-400-large-extra-bold {
+  @include heading-400-large;
+  font-weight: 800;
+}
+
+@mixin heading-400-large-bold {
+  @include heading-400-large;
+  font-weight: 700;
+}
+
+@mixin heading-400-large-semi-bold {
+  @include heading-400-large;
+  font-weight: 400;
+}
+
+@mixin heading-400-large-regular {
+  @include heading-400-large;
+  font-weight: 400;
+}
+
+// 400 medium
+
+@mixin heading-400-medium {
+  @include heading;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+@mixin heading-400-medium-extra-bold {
+  @include heading-400-medium;
+  font-weight: 800;
+}
+
+@mixin heading-400-medium-bold {
+  @include heading-400-medium;
+  font-weight: 700;
+}
+
+@mixin heading-400-medium-semi-bold {
+  @include heading-400-medium;
+  font-weight: 400;
+}
+
+@mixin heading-400-medium-regular {
+  @include heading-400-medium;
+  font-weight: 400;
+}
+
+// 400 small
+
+@mixin heading-400-small {
+  @include heading;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+@mixin heading-400-small-extra-bold {
+  @include heading-400-small;
+  font-weight: 800;
+}
+
+@mixin heading-400-small-bold {
+  @include heading-400-small;
+  font-weight: 700;
+}
+
+@mixin heading-400-small-semi-bold {
+  @include heading-400-small;
+  font-weight: 400;
+}
+
+@mixin heading-400-small-regular {
+  @include heading-400-small;
+  font-weight: 400;
+}
+
+// Heading 300
+
+// 300 large
+
+@mixin heading-300-large {
+  @include heading;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+@mixin heading-300-large-extra-bold {
+  @include heading-300-large;
+  font-weight: 800;
+}
+
+@mixin heading-300-large-bold {
+  @include heading-300-large;
+  font-weight: 700;
+}
+
+@mixin heading-300-large-semi-bold {
+  @include heading-300-large;
+  font-weight: 300;
+}
+
+@mixin heading-300-large-regular {
+  @include heading-300-large;
+  font-weight: 400;
+}
+
+// 300 medium
+
+@mixin heading-300-medium {
+  @include heading;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+@mixin heading-300-medium-extra-bold {
+  @include heading-300-medium;
+  font-weight: 800;
+}
+
+@mixin heading-300-medium-bold {
+  @include heading-300-medium;
+  font-weight: 700;
+}
+
+@mixin heading-300-medium-semi-bold {
+  @include heading-300-medium;
+  font-weight: 300;
+}
+
+@mixin heading-300-medium-regular {
+  @include heading-300-medium;
+  font-weight: 400;
+}
+
+// 300 small
+
+@mixin heading-300-small {
+  @include heading;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@mixin heading-300-small-extra-bold {
+  @include heading-300-small;
+  font-weight: 800;
+}
+
+@mixin heading-300-small-bold {
+  @include heading-300-small;
+  font-weight: 700;
+}
+
+@mixin heading-300-small-semi-bold {
+  @include heading-300-small;
+  font-weight: 300;
+}
+
+@mixin heading-300-small-regular {
+  @include heading-300-small;
+  font-weight: 400;
+}
+
+// Heading 200
+
+// 200 large
+
+@mixin heading-200-large {
+  @include heading;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+@mixin heading-200-large-extra-bold {
+  @include heading-200-large;
+  font-weight: 800;
+}
+
+@mixin heading-200-large-bold {
+  @include heading-200-large;
+  font-weight: 700;
+}
+
+@mixin heading-200-large-semi-bold {
+  @include heading-200-large;
+  font-weight: 200;
+}
+
+@mixin heading-200-large-regular {
+  @include heading-200-large;
+  font-weight: 400;
+}
+
+// 200 medium
+
+@mixin heading-200-medium {
+  @include heading;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@mixin heading-200-medium-extra-bold {
+  @include heading-200-medium;
+  font-weight: 800;
+}
+
+@mixin heading-200-medium-bold {
+  @include heading-200-medium;
+  font-weight: 700;
+}
+
+@mixin heading-200-medium-semi-bold {
+  @include heading-200-medium;
+  font-weight: 200;
+}
+
+@mixin heading-200-medium-regular {
+  @include heading-200-medium;
+  font-weight: 400;
+}
+
+// 200 small
+
+@mixin heading-200-small {
+  @include heading;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@mixin heading-200-small-extra-bold {
+  @include heading-200-small;
+  font-weight: 800;
+}
+
+@mixin heading-200-small-bold {
+  @include heading-200-small;
+  font-weight: 700;
+}
+
+@mixin heading-200-small-semi-bold {
+  @include heading-200-small;
+  font-weight: 200;
+}
+
+@mixin heading-200-small-regular {
+  @include heading-200-small;
+  font-weight: 400;
+}
+
+// Heading 100
+
+// 100 large
+
+@mixin heading-100-large {
+  @include heading;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@mixin heading-100-large-extra-bold {
+  @include heading-100-large;
+  font-weight: 800;
+}
+
+@mixin heading-100-large-bold {
+  @include heading-100-large;
+  font-weight: 700;
+}
+
+@mixin heading-100-large-semi-bold {
+  @include heading-100-large;
+  font-weight: 100;
+}
+
+@mixin heading-100-large-regular {
+  @include heading-100-large;
+  font-weight: 400;
+}
+
+// 100 medium
+
+@mixin heading-100-medium {
+  @include heading;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@mixin heading-100-medium-extra-bold {
+  @include heading-100-medium;
+  font-weight: 800;
+}
+
+@mixin heading-100-medium-bold {
+  @include heading-100-medium;
+  font-weight: 700;
+}
+
+@mixin heading-100-medium-semi-bold {
+  @include heading-100-medium;
+  font-weight: 100;
+}
+
+@mixin heading-100-medium-regular {
+  @include heading-100-medium;
+  font-weight: 400;
+}
+
+// 100 small
+
+@mixin heading-100-small {
+  @include heading;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+@mixin heading-100-small-extra-bold {
+  @include heading-100-small;
+  font-weight: 800;
+}
+
+@mixin heading-100-small-bold {
+  @include heading-100-small;
+  font-weight: 700;
+}
+
+@mixin heading-100-small-semi-bold {
+  @include heading-100-small;
+  font-weight: 100;
+}
+
+@mixin heading-100-small-regular {
+  @include heading-100-small;
+  font-weight: 400;
+}

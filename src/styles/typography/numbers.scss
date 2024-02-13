@@ -1,0 +1,230 @@
+// TODO: adjust letter spacing to valid units since percentage is not supported
+
+@mixin number {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 4%;
+}
+
+// Number 800
+
+@mixin number-800 {
+  @include number;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+@mixin number-800-extra-bold {
+  @include number-800;
+  font-weight: 800;
+}
+
+@mixin number-800-bold {
+  @include number-800;
+  font-weight: 700;
+}
+
+@mixin number-800-semi-bold {
+  @include number-800;
+  font-weight: 600;
+}
+
+@mixin number-800-regular {
+  @include number-800;
+  font-weight: 400;
+}
+
+// Number 700
+
+@mixin number-700 {
+  @include number;
+  font-size: 28px;
+  line-height: 44px;
+}
+
+@mixin number-700-extra-bold {
+  @include number-700;
+  font-weight: 800;
+}
+
+@mixin number-700-bold {
+  @include number-700;
+  font-weight: 700;
+}
+
+@mixin number-700-semi-bold {
+  @include number-700;
+  font-weight: 600;
+}
+
+@mixin number-700-regular {
+  @include number-700;
+  font-weight: 400;
+}
+
+// Number 600
+
+@mixin number-600 {
+  @include number;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+@mixin number-600-extra-bold {
+  @include number-600;
+  font-weight: 800;
+}
+
+@mixin number-600-bold {
+  @include number-600;
+  font-weight: 700;
+}
+
+@mixin number-600-semi-bold {
+  @include number-600;
+  font-weight: 600;
+}
+
+@mixin number-600-regular {
+  @include number-600;
+  font-weight: 400;
+}
+
+// Number 500
+
+@mixin number-500 {
+  @include number;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+@mixin number-500-extra-bold {
+  @include number-500;
+  font-weight: 800;
+}
+
+@mixin number-500-bold {
+  @include number-500;
+  font-weight: 700;
+}
+
+@mixin number-500-semi-bold {
+  @include number-500;
+  font-weight: 600;
+}
+
+@mixin number-500-regular {
+  @include number-500;
+  font-weight: 400;
+}
+
+// Number 400
+
+@mixin number-400 {
+  @include number;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+@mixin number-400-extra-bold {
+  @include number-400;
+  font-weight: 800;
+}
+
+@mixin number-400-bold {
+  @include number-400;
+  font-weight: 700;
+}
+
+@mixin number-400-semi-bold {
+  @include number-400;
+  font-weight: 600;
+}
+
+@mixin number-400-regular {
+  @include number-400;
+  font-weight: 400;
+}
+
+// Number 300
+
+@mixin number-300 {
+  @include number;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@mixin number-300-extra-bold {
+  @include number-300;
+  font-weight: 800;
+}
+
+@mixin number-300-bold {
+  @include number-300;
+  font-weight: 700;
+}
+
+@mixin number-300-semi-bold {
+  @include number-300;
+  font-weight: 600;
+}
+
+@mixin number-300-regular {
+  @include number-300;
+  font-weight: 400;
+}
+
+// Number 200
+
+@mixin number-200 {
+  @include number;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@mixin number-200-extra-bold {
+  @include number-200;
+  font-weight: 800;
+}
+
+@mixin number-200-bold {
+  @include number-200;
+  font-weight: 700;
+}
+
+@mixin number-200-semi-bold {
+  @include number-200;
+  font-weight: 600;
+}
+
+@mixin number-200-regular {
+  @include number-200;
+  font-weight: 400;
+}
+
+// Number 100
+
+@mixin number-100 {
+  @include number;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+@mixin number-100-extra-bold {
+  @include number-100;
+  font-weight: 800;
+}
+
+@mixin number-100-bold {
+  @include number-100;
+  font-weight: 700;
+}
+
+@mixin number-100-semi-bold {
+  @include number-100;
+  font-weight: 600;
+}
+
+@mixin number-100-regular {
+  @include number-100;
+  font-weight: 400;
+}

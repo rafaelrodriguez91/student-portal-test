@@ -1,0 +1,234 @@
+// NOTE: adding underlined variant to match Figma, but probably could be removed since documentation could be for display purposes only
+
+@mixin body {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0;
+}
+
+// Body
+
+// Body x-large
+
+@mixin body-x-large {
+  @include body;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+@mixin body-x-large-bold {
+  @include body-x-large;
+  font-weight: 700;
+}
+
+@mixin body-x-large-semi-bold {
+  @include body-x-large;
+  font-weight: 600;
+}
+
+@mixin body-x-large-regular {
+  @include body-x-large;
+  font-weight: 400;
+}
+
+@mixin body-x-large-regular-underlined {
+  @include body-x-large-regular;
+  text-decoration: underline;
+}
+
+// Body large
+
+@mixin body-large {
+  @include body;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+@mixin body-large-bold {
+  @include body-large;
+  font-weight: 700;
+}
+
+@mixin body-large-semi-bold {
+  @include body-large;
+  font-weight: 600;
+}
+
+@mixin body-large-regular {
+  @include body-large;
+  font-weight: 400;
+}
+
+@mixin body-large-regular-underlined {
+  @include body-large-regular;
+  text-decoration: underline;
+}
+
+// Body base
+
+@mixin body-base {
+  @include body;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@mixin body-base-bold {
+  @include body-base;
+  font-weight: 700;
+}
+
+@mixin body-base-semi-bold {
+  @include body-base;
+  font-weight: 600;
+}
+
+@mixin body-base-regular {
+  @include body-base;
+  font-weight: 400;
+}
+
+@mixin body-base-regular-underlined {
+  @include body-base-regular;
+  text-decoration: underline;
+}
+
+// Body small
+
+@mixin body-small {
+  @include body;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@mixin body-small-bold {
+  @include body-small;
+  font-weight: 700;
+}
+
+@mixin body-small-semi-bold {
+  @include body-small;
+  font-weight: 600;
+}
+
+@mixin body-small-regular {
+  @include body-small;
+  font-weight: 400;
+}
+
+@mixin body-small-regular-underlined {
+  @include body-small-regular;
+  text-decoration: underline;
+}
+
+// Body x-small
+
+@mixin body-x-small {
+  @include body;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+@mixin body-x-small-bold {
+  @include body-x-small;
+  font-weight: 700;
+}
+
+@mixin body-x-small-semi-bold {
+  @include body-x-small;
+  font-weight: 600;
+}
+
+@mixin body-x-small-regular {
+  @include body-x-small;
+  font-weight: 400;
+}
+
+@mixin body-x-small-regular-underlined {
+  @include body-x-small-regular;
+  text-decoration: underline;
+}
+
+// Body xx-small
+
+@mixin body-xx-small {
+  @include body;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+@mixin body-xx-small-bold {
+  @include body-xx-small;
+  font-weight: 700;
+}
+
+@mixin body-xx-small-semi-bold {
+  @include body-xx-small;
+  font-weight: 600;
+}
+
+@mixin body-xx-small-regular {
+  @include body-xx-small;
+  font-weight: 400;
+}
+
+@mixin body-xx-small-regular-underlined {
+  @include body-xx-small-regular;
+  text-decoration: underline;
+}
+
+// Body highlight
+
+// Body highlight large
+
+@mixin body-highlight-large {
+  @include body;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+@mixin body-highlight-large-bold {
+  @include body-highlight-large;
+  font-weight: 700;
+}
+
+@mixin body-highlight-large-semi-bold {
+  @include body-highlight-large;
+  font-weight: 600;
+}
+
+@mixin body-highlight-large-regular {
+  @include body-highlight-large;
+  font-weight: 400;
+}
+
+@mixin body-highlight-large-regular-underlined {
+  @include body-highlight-large-regular;
+  text-decoration: underline;
+}
+
+// Body highlight medium
+
+@mixin body-highlight-medium {
+  @include body;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+@mixin body-highlight-medium-bold {
+  @include body-highlight-medium;
+  font-weight: 700;
+}
+
+@mixin body-highlight-medium-semi-bold {
+  @include body-highlight-medium;
+  font-weight: 600;
+}
+
+@mixin body-highlight-medium-regular {
+  @include body-highlight-medium;
+  font-weight: 400;
+}
+
+@mixin body-highlight-medium-regular-underlined {
+  @include body-highlight-medium-regular;
+  text-decoration: underline;
+}

@@ -1,0 +1,73 @@
+// NOTE: added in line tokens to match Figma's documentation, but this probably only for display purposes
+
+// Inline large
+
+@mixin inline-large-regular {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+@mixin inline-large-regular-underlined {
+  @include inline-large-regular;
+  text-decoration: underline;
+}
+
+@mixin inline-large-regular-italic {
+  @include inline-large-regular;
+  font-style: italic;
+}
+
+@mixin inline-large-regular-striked {
+  @include inline-large-regular;
+  text-decoration: line-through;
+}
+
+// Inline medium
+
+@mixin inline-medium-regular {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
+@mixin inline-medium-regular-underlined {
+  @include inline-medium-regular;
+  text-decoration: underline;
+}
+
+@mixin inline-medium-regular-italic {
+  @include inline-medium-regular;
+  font-style: italic;
+}
+
+@mixin inline-medium-regular-striked {
+  @include inline-medium-regular;
+  text-decoration: line-through;
+}
+
+// Inline small
+
+@mixin inline-small-regular {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 1%;
+}
+
+@mixin inline-small-regular-underlined {
+  @include inline-small-regular;
+  text-decoration: underline;
+}
+
+@mixin inline-small-regular-italic {
+  @include inline-small-regular;
+  font-style: italic;
+}
+
+@mixin inline-small-regular-striked {
+  @include inline-small-regular;
+  text-decoration: line-through;
+}

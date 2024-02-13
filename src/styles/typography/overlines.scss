@@ -1,0 +1,82 @@
+// TODO: update letter spacing unit and value
+
+@mixin overline {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+// Overline x-large
+
+@mixin overline-x-large {
+  @include overline;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 2%;
+}
+
+@mixin overline-x-large-bold {
+  @include overline-x-large;
+  font-weight: 700;
+}
+
+@mixin overline-x-large-semi-bold {
+  @include overline-x-large;
+  font-weight: 600;
+}
+
+// Overline large
+
+@mixin overline-large {
+  @include overline;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 2%;
+}
+
+@mixin overline-large-bold {
+  @include overline-large;
+  font-weight: 700;
+}
+
+@mixin overline-large-semi-bold {
+  @include overline-large;
+  font-weight: 600;
+}
+
+// Overline medium
+
+@mixin overline-medium {
+  @include overline;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 3%;
+}
+
+@mixin overline-medium-bold {
+  @include overline-medium;
+  font-weight: 700;
+}
+
+@mixin overline-medium-semi-bold {
+  @include overline-medium;
+  font-weight: 600;
+}
+
+// Overline small
+
+@mixin overline-small {
+  @include overline;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 4%;
+}
+
+@mixin overline-small-bold {
+  @include overline-small;
+  font-weight: 700;
+}
+
+@mixin overline-small-semi-bold {
+  @include overline-small;
+  font-weight: 600;
+}

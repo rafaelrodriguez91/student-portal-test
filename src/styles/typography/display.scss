@@ -1,0 +1,96 @@
+@mixin display {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0;
+}
+
+// Display large
+
+@mixin display-large {
+  @include display;
+  font-size: 56px;
+  line-height: 84px;
+}
+
+@mixin display-large-extra-bold {
+  @include display-large;
+  font-weight: 800;
+}
+
+@mixin display-large-bold {
+  @include display-large;
+  font-weight: 700;
+}
+
+@mixin display-large-semi-bold {
+  @include display-large;
+  font-weight: 600;
+}
+
+// Display medium
+
+@mixin display-medium {
+  @include display;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+@mixin display-medium-extra-bold {
+  @include display-medium;
+  font-weight: 800;
+}
+
+@mixin display-medium-bold {
+  @include display-medium;
+  font-weight: 700;
+}
+
+@mixin display-medium-semi-bold {
+  @include display-medium;
+  font-weight: 600;
+}
+
+// Display small
+
+@mixin display-small {
+  @include display;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+@mixin display-small-extra-bold {
+  @include display-small;
+  font-weight: 800;
+}
+
+@mixin display-small-bold {
+  @include display-small;
+  font-weight: 700;
+}
+
+@mixin display-small-semi-bold {
+  @include display-small;
+  font-weight: 600;
+}
+
+// Display x-small
+
+@mixin display-x-small {
+  @include display;
+  font-size: 36px;
+  line-height: 52px;
+}
+
+@mixin display-x-small-extra-bold {
+  @include display-x-small;
+  font-weight: 800;
+}
+
+@mixin display-x-small-bold {
+  @include display-x-small;
+  font-weight: 700;
+}
+
+@mixin display-x-small-semi-bold {
+  @include display-x-small;
+  font-weight: 600;
+}
