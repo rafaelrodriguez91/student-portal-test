@@ -2,54 +2,175 @@
   // FONT colors
 
   // Light mode
-  --font-light-primary: #2b3749;
-  --font-light-secondary: #607088;
-  --font-dark-primary: #ffffff;
-  --font-dark-secondary: #e2e5e9;
+  --font-colors-light-mode-primary: #2b3749;
+  --font-colors-light-mode-secondary: #607088;
+  --font-colors-dark-mode-primary: #ffffff;
+  --font-colors-dark-mode-secondary: #e2e5e9;
 
   // ACCESSORIES color
-  --warning-red: #ff490f;
-  --success-green: #00bf9d;
-  --link-blue: #0666df;
-  --accent-brown: #bd8a48;
-  --disabled-gray: #d3d8de;
-  --link-pressed: #2368cb;
+  --font-colors-warning-red: #ff490f;
+  --font-colors-accessories-success-green: #00bf9d;
+  --font-colors-accessories-link-blue: #0666df;
+  --font-colors-accessories-accent-brown: #bd8a48;
+  --font-colors-accessories-disabled-gray: #d3d8de;
+  --font-colors-accessories-link-pressed: #2368cb;
 
   // NEUTRAL colors
 
   // Beige
-  --lightest-beige: #f5f3f0;
-  --light-beige: #f1eeea;
-  --medium-beige: #e9e6e2;
-  --dark-beige: #d7cfc6;
-  --darkest-beige: #bdb5ac;
+  --neutral-colors-lightest-beige: #f5f3f0;
+  --neutral-colors-light-beige: #f1eeea;
+  --neutral-colors-medium-beige: #e9e6e2;
+  --neutral-colors-dark-beige: #d7cfc6;
+  --neutral-colors-darkest-beige: #bdb5ac;
 
   // Gray
-  --lightest-gray: #ebeef2;
-  --light-gray: #e2e5e9;
-  --medium-gray: #d3d8de;
-  --dark-gray: #a3afc2;
-  --darkest-gray: #607088;
+  --neutral-colors-lightest-gray: #ebeef2;
+  --neutral-colors-light-gray: #e2e5e9;
+  --neutral-colors-medium-gray: #d3d8de;
+  --neutral-colors-dark-gray: #a3afc2;
+  --neutral-colors-darkest-gray: #607088;
 
   // Slate
-  --lightest-slate: #f7f8fa;
-  --light-slate: #f0f3f7;
-  --medium-slate: #d1d8e3;
-  --dark-slate: #7f95b5;
-  --darkest-slate: #556e91;
+  --neutral-colors-lightest-slate: #f7f8fa;
+  --neutral-colors-light-slate: #f0f3f7;
+  --neutral-colors-medium-slate: #d1d8e3;
+  --neutral-colors-dark-slate: #7f95b5;
+  --neutral-colors-darkest-slate: #556e91;
 
   // Denim
-  --lightest-denim: #465b78;
-  --light-denim: #354861;
-  --medium-denim: #2b3749;
-  --dark-denim: #232c3b;
-  --darkest-denim: #171c26;
+  --neutral-colors-lightest-denim: #465b78;
+  --neutral-colors-light-denim: #354861;
+  --neutral-colors-medium-denim: #2b3749;
+  --neutral-colors-dark-denim: #232c3b;
+  --neutral-colors-darkest-denim: #171c26;
 
   // PRODUCT colors
 
-  --typing-blue: #1f85fc;
-  --vocab-green: #25cba9;
-  --dc-purple: #8449eb;
-  --sel-citrus: #e0e04c;
-  --reading-magenta: #d036b0;
+  --product-colors-typing-blue: #1f85fc;
+  --product-colors-vocab-green: #25cba9;
+  --product-colors-dc-purple: #8449eb;
+  --product-colors-sel-citrus: #e0e04c;
+  --product-colors-reading-magenta: #d036b0;
+
+  // VIBRANT colors
+
+  // Pink red
+  --vibrant-colors-pink-red-01: #fff5f9;
+  --vibrant-colors-pink-red-02: #ffecf3;
+  --vibrant-colors-pink-red-03: #ffd9e7;
+  --vibrant-colors-pink-red-04: #ffbad2;
+  --vibrant-colors-pink-red-05: #ff8bb4;
+  --vibrant-colors-pink-red-06: #ff5b95;
+  --vibrant-colors-pink-red-07: #c31754;
+
+  // Magenta
+  --vibrant-colors-magenta-01: #ffdffa;
+  --vibrant-colors-magenta-02: #ffb0ff;
+  --vibrant-colors-magenta-03: #f565ff;
+  --vibrant-colors-magenta-04: #d120de;
+
+  // Violet
+  --vibrant-colors-violet-01: #f9ddff;
+  --vibrant-colors-violet-02: #e9a2ff;
+  --vibrant-colors-violet-03: #cb52ff;
+  --vibrant-colors-violet-04: #9510e2;
+
+  // Purple
+  --vibrant-colors-purple-01: #f1e5ff;
+  --vibrant-colors-purple-02: #d9b7ff;
+  --vibrant-colors-purple-03: #be86ff;
+  --vibrant-colors-purple-04: #9a49f7;
+
+  // Lavander
+  --vibrant-colors-lavander-01: #f7f0ff;
+  --vibrant-colors-lavander-02: #e7d1ff;
+  --vibrant-colors-lavander-03: #cc9fff;
+  --vibrant-colors-lavander-04: #b87aff;
+
+  // Purple blue
+  --vibrant-colors-purple-blue-01: #dad4ff;
+  --vibrant-colors-purple-blue-02: #bdb4ff;
+  --vibrant-colors-purple-blue-03: #868aff;
+  --vibrant-colors-purple-blue-04: #7067ea;
+
+  // Royal blue
+  --vibrant-colors-royal-blue-01: #e0e4ff;
+  --vibrant-colors-royal-blue-02: #a0a4ff;
+  --vibrant-colors-royal-blue-03: #676dff;
+  --vibrant-colors-royal-blue-04: #393dbc;
+
+  // Persian blue
+  --vibrant-colors-persian-blue-01: #cedbff;
+  --vibrant-colors-persian-blue-02: #97b3ff;
+  --vibrant-colors-persian-blue-03: #697aff;
+  --vibrant-colors-persian-blue-04: #4354da;
+
+  // Steel blue
+  --vibrant-colors-steel-blue-01: #cfe3ff;
+  --vibrant-colors-steel-blue-02: #6da9ff;
+  --vibrant-colors-steel-blue-03: #1a76fa;
+  --vibrant-colors-steel-blue-04: #145dc4;
+
+  // NOTE: color order is inverted starting from here
+
+  // Sky blue
+  --vibrant-colors-sky-blue-04: #ebfaff;
+  --vibrant-colors-sky-blue-03: #ccf1ff;
+  --vibrant-colors-sky-blue-02: #96e3ff;
+  --vibrant-colors-sky-blue-01: #85c5ff;
+
+  // Teal
+  --vibrant-colors-teal-04: #a2eadd;
+  --vibrant-colors-teal-03: #15ddb9;
+  --vibrant-colors-teal-02: #00bf9d;
+  --vibrant-colors-teal-01: #00a38a;
+
+  // Green
+  --vibrant-colors-green-04: #c5ffe3;
+  --vibrant-colors-green-03: #8afdda;
+  --vibrant-colors-green-02: #3deab5;
+  --vibrant-colors-green-01: #00d997;
+
+  // Nature green
+  --vibrant-colors-nature-greeen-04: #9ff2c2;
+  --vibrant-colors-nature-greeen-03: #5deca0;
+  --vibrant-colors-nature-greeen-02: #15d679;
+  --vibrant-colors-nature-greeen-01: #00a656;
+
+  // Lime
+  --vibrant-colors-lime-04: #f3ffce;
+  --vibrant-colors-lime-03: #e9ffa9;
+  --vibrant-colors-lime-02: #d9f87e;
+  --vibrant-colors-lime-01: #c5e567;
+
+  // Lemon
+  --vibrant-colors-lemon-04: #fffab8;
+  --vibrant-colors-lemon-03: #fff788;
+  --vibrant-colors-lemon-02: #fff01e;
+  --vibrant-colors-lemon-01: #efe300;
+
+  // Honey
+  --vibrant-colors-honey-04: #fff3b1;
+  --vibrant-colors-honey-03: #ffe643;
+  --vibrant-colors-honey-02: #ffd600;
+  --vibrant-colors-honey-01: #f2cb00;
+
+  // Gold
+  --vibrant-colors-gold-01: #ffd180;
+  --vibrant-colors-gold-02: #ffc432;
+  --vibrant-colors-gold-03: #e8b610;
+  --vibrant-colors-gold-04: #bf7d13;
+
+  // Destructive red
+  --vibrant-colors-destructive-red-04: #ffaa97;
+  --vibrant-colors-destructive-red-03: #ff490f;
+  --vibrant-colors-destructive-red-02: #ed3b02;
+  --vibrant-colors-destructive-red-01: #d43300;
+
+  // Rose
+  --vibrant-colors-rose-04: #f7a2a2;
+  --vibrant-colors-rose-03: #f04747;
+  --vibrant-colors-rose-02: #e03c3c;
+  --vibrant-colors-rose-01: #c93737;
 }
