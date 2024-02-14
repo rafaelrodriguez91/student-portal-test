@@ -1,9 +1,6 @@
-// TODO: adjust letter spacing since fimga documented value is 4% but each variant has a different value
-
 @mixin number {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
-  letter-spacing: 1.28px;
 }
 
 // Number 800
@@ -12,6 +9,7 @@
   @include number;
   font-size: 32px;
   line-height: 48px;
+  letter-spacing: 1.28px;
 }
 
 @mixin number-800-extra-bold {
@@ -40,6 +38,7 @@
   @include number;
   font-size: 28px;
   line-height: 44px;
+  letter-spacing: 1.12px;
 }
 
 @mixin number-700-extra-bold {
@@ -68,6 +67,7 @@
   @include number;
   font-size: 24px;
   line-height: 36px;
+  letter-spacing: 0.96px;
 }
 
 @mixin number-600-extra-bold {
@@ -96,6 +96,7 @@
   @include number;
   font-size: 20px;
   line-height: 32px;
+  letter-spacing: 0.8px;
 }
 
 @mixin number-500-extra-bold {
@@ -124,6 +125,7 @@
   @include number;
   font-size: 18px;
   line-height: 28px;
+  letter-spacing: 0.72px;
 }
 
 @mixin number-400-extra-bold {
@@ -152,6 +154,7 @@
   @include number;
   font-size: 16px;
   line-height: 24px;
+  letter-spacing: 0.64px;
 }
 
 @mixin number-300-extra-bold {
@@ -180,6 +183,7 @@
   @include number;
   font-size: 14px;
   line-height: 20px;
+  letter-spacing: 0.56px;
 }
 
 @mixin number-200-extra-bold {
@@ -208,6 +212,7 @@
   @include number;
   font-size: 12px;
   line-height: 18px;
+  letter-spacing: 0.48px;
 }
 
 @mixin number-100-extra-bold {

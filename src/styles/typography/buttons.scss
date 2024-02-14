@@ -1,5 +1,4 @@
 // TODO: added semi bold Lato file but we need to test if it displays correctly
-// TODO: check if the line height value for small and x-small is correct, since Figma displays different values in documented and dev mode
 
 @mixin button {
   font-family: "Lato", sans-serif;
@@ -26,7 +25,7 @@
 @mixin button-small {
   @include button;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 20px;
   letter-spacing: 0.21px;
 }
 
@@ -44,7 +43,7 @@
   @include button;
   font-size: 12px;
   line-height: 18px;
-  letter-spacing: 0.21px;
+  letter-spacing: 0.24px;
 }
 
 @mixin button-x-small-semi-bold {
