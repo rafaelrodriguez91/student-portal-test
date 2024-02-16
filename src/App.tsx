@@ -1,37 +1,118 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.scss";
+import Button from "./components/Button";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="column">
+      <h2>Type variants</h2>
+
+      <div className="row">
+        <div className="column">
+          <h3>Primary</h3>
+          <Button variant="primary">Button variant</Button>
+          <Button variant="primary">Button variant</Button>
+          <Button variant="primary">Button variant</Button>
+          <Button disabled variant="primary">
+            Button variant
+          </Button>
+          <Button variant="primary">Button variant</Button>
+        </div>
+
+        <div className="column">
+          <h3>Default</h3>
+          <Button variant="default">Button variant</Button>
+          <Button variant="default">Button variant</Button>
+          <Button variant="default">Button variant</Button>
+          <Button disabled variant="default">
+            Button variant
+          </Button>
+          <Button variant="default">Button variant</Button>
+        </div>
+
+        <div className="column">
+          <h3>Outline</h3>
+          <Button variant="outline">Button variant</Button>
+          <Button variant="outline">Button variant</Button>
+          <Button variant="outline">Button variant</Button>
+          <Button disabled variant="outline">
+            Button variant
+          </Button>
+          <Button variant="outline">Button variant</Button>
+        </div>
+
+        <div className="column">
+          <h3>Destructive primary</h3>
+          <Button variant="destructive-primary">Button variant</Button>
+          <Button variant="destructive-primary">Button variant</Button>
+          <Button variant="destructive-primary">Button variant</Button>
+          <Button disabled variant="destructive-primary">
+            Button variant
+          </Button>
+          <Button variant="destructive-primary">Button variant</Button>
+        </div>
+
+        <div className="column">
+          <h3>Destructive outline</h3>
+          <Button variant="destructive-outline">Button variant</Button>
+          <Button variant="destructive-outline">Button variant</Button>
+          <Button variant="destructive-outline">Button variant</Button>
+          <Button disabled variant="destructive-outline">
+            Button variant
+          </Button>
+          <Button variant="destructive-outline">Button variant</Button>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button
-          className="button"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+
+      <h2>Size variants</h2>
+
+      <div className="row">
+        <div className="column">
+          <h3>Large</h3>
+          <Button size="large" variant="primary">
+            Button size primary
+          </Button>
+        </div>
+
+        <div className="column">
+          <h3>Medium</h3>
+          <Button size="medium" variant="primary">
+            Button size variant
+          </Button>
+        </div>
+
+        <div className="column">
+          <h3>Small</h3>
+          <Button size="small" variant="primary">
+            Button size variant
+          </Button>
+        </div>
+
+        <div className="column">
+          <h3>Narrow</h3>
+          <Button size="narrow" variant="primary">
+            Button size variant
+          </Button>
+        </div>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+
+      <h2>Shape variants</h2>
+
+      <div className="row">
+        <div className="column">
+          <h3>Oval</h3>
+          <Button shape="oval" variant="primary">
+            Button shape variant
+          </Button>
+        </div>
+
+        <div className="column">
+          <h3>Rectangle</h3>
+          <Button shape="rectangle" variant="primary">
+            Button shape variant
+          </Button>
+        </div>
+      </div>
+    </div>
   );
 }
 

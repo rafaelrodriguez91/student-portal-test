@@ -1,0 +1,165 @@
+@use "../../styles/typography/buttons.scss";
+
+.button {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: none;
+
+  &:focus {
+    outline: 2px solid var(--focus-outline);
+    outline-offset: 2px;
+  }
+}
+
+// Button shape variants
+
+.buttonShapeOval {
+  border-radius: 32px;
+}
+
+.buttonShapeRectangle {
+  border-radius: 4px;
+}
+
+// Button size variants
+
+.buttonSizeLarge {
+  @include buttons.button-default-regular;
+  height: 48px;
+  padding: 0 32px;
+}
+
+.buttonSizeMedium {
+  @include buttons.button-default-regular;
+  height: 40px;
+  padding: 0 20px;
+}
+
+.buttonSizeSmall {
+  @include buttons.button-small-regular;
+  height: 32px;
+  padding: 0 12px;
+}
+
+.buttonSizeNarrow {
+  @include buttons.button-default-regular;
+  height: 32px;
+  padding: 0 16px;
+}
+
+// Button variants
+
+.buttonVariantPrimary {
+  background-color: var(--neutral-colors-medium-denim);
+  color: var(--font-colors-dark-mode-primary);
+
+  &:hover,
+  &:hover:focus {
+    background-color: var(--neutral-colors-dark-denim);
+  }
+
+  &:active,
+  &:active:focus {
+    background-color: var(--neutral-colors-darkest-denim);
+  }
+
+  &:disabled {
+    background-color: var(--neutral-colors-medium-gray);
+  }
+}
+
+.buttonVariantDefault {
+  background-color: var(--neutral-colors-white);
+  color: var(--font-colors-light-mode-primary);
+  border: 1px solid var(--neutral-colors-dark-gray);
+
+  &:hover,
+  &:hover:focus {
+    background-color: var(--neutral-colors-lightest-slate);
+  }
+
+  &:active,
+  &:active:focus {
+    background-color: var(--neutral-colors-light-slate);
+  }
+
+  &:disabled {
+    background-color: var(--neutral-colors-lightest-slate);
+    color: var(--font-colors-accessories-disabled-gray);
+    border-color: var(--neutral-colors-medium-slate);
+  }
+}
+
+.buttonVariantOutline {
+  background-color: var(--neutral-colors-white);
+  color: var(--font-colors-light-mode-primary);
+  border: 1px solid var(--neutral-colors-medium-denim);
+
+  &:hover,
+  &:hover:focus {
+    background-color: var(--neutral-colors-medium-denim);
+    border-color: transparent;
+    color: var(--neutral-colors-white);
+  }
+
+  &:active,
+  &:active:focus {
+    background-color: var(--neutral-colors-darkest-denim);
+    border-color: transparent;
+    color: var(--neutral-colors-white);
+  }
+
+  &:disabled {
+    background-color: var(--neutral-colors-white);
+    color: var(--font-colors-accessories-disabled-gray);
+    border-color: var(--neutral-colors-medium-slate);
+  }
+}
+
+.buttonVariantDestructivePrimary {
+  background-color: var(--vibrant-colors-destructive-red-02);
+  color: var(--neutral-colors-white);
+
+  &:hover,
+  &:hover:focus {
+    background-color: var(--vibrant-colors-destructive-red-03);
+  }
+
+  &:active,
+  &:active:focus {
+    background-color: var(--vibrant-colors-destructive-red-04);
+  }
+
+  &:disabled {
+    background-color: var(--vibrant-colors-destructive-red-01);
+  }
+}
+
+.buttonVariantDestructiveOutline {
+  background-color: var(--neutral-colors-white);
+  color: var(--font-colors-warning-red);
+  border: 1px solid var(--vibrant-colors-destructive-red-02);
+
+  &:hover,
+  &:hover:focus {
+    background-color: var(--vibrant-colors-destructive-red-02);
+    border-color: transparent;
+    color: var(--neutral-colors-white);
+  }
+
+  &:active,
+  &:active:focus {
+    background-color: var(--vibrant-colors-destructive-red-04);
+    border-color: transparent;
+    color: var(--neutral-colors-white);
+  }
+
+  &:disabled {
+    background-color: var(--neutral-colors-white);
+    color: var(--vibrant-colors-destructive-red-01);
+    border-color: var(--vibrant-colors-destructive-red-01);
+  }
+}
